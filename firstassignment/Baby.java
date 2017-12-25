@@ -41,7 +41,7 @@ public class Baby {
 	public char gender;
 	public Date birthday;
 	SimpleDateFormat simpleDateFormat = new SimpleDateFormat("dd/MM/yyyy HH:mm");
-	public ArrayList<Baby> baby;;
+	public ArrayList<Baby> baby;
 	
 	public Baby() {
 		baby = new ArrayList<>();
